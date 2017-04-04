@@ -6,12 +6,12 @@
  * @param Type of coffee
  */
 
-function makeCoffee($type) {
-  if ($type == 'latte') {
-    echo '<p>A latte is a shortened version of the Italian word, caffè latte, which means milk coffee. Lattes contain a shot of espresso and steamed milk.</p>';
-  } else if ($type == 'espresso') {
-    echo '<p>Highly concentrated Italian coffee served in a single standard shot.</p>';
+function findDog($type) {
+  if ($type == 'rottweiler') {
+    echo '<p>The rottweiler breed is a domestic dog, regarded as medium-to-large or large. Its name derives from Germany.</p>';
+  } else if ($type == 'pit bull') {
+    echo '<p>The formal breeds of pit bulls are the American Pit Bull Terrier, American Staffordshire Terrier, American Bully, and Staffordshire Bull Terrier.</p>';
   } else {
-    echo '<p>That&rsquo;s not a real coffee.</p>';
+    echo '<p>That&rsquo;s not a real dog!</p>';
   }
 }
